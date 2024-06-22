@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="header">
+        CALCULATOR
+    </h1>
+    <div id="resultDiv">
+        <pre id="expressionPara"> </pre>
+        <p id="resultPara">0</p>
+    </div>
+    <div id="numberButtons">
+        <div class="row">
+            <button class="Nbutton" type="button" onclick=Operand(1)>
+                1
+            </button>
+            <button class="Nbutton" type="button" onclick=Operand(2)>
+                2
+            </button>
+            <button class="Nbutton" type="button" onclick=Operand(3)>
+                3
+            </button>
+            <button class="Nbutton" type="button" onclick="Operator('+')">
+                +
+            </button>
+        </div>
+        <div class="row">
+            <button class="Nbutton" type="button" onclick=Operand(4)>
+                4
+            </button>
+            <button class="Nbutton" type="button" onclick=Operand(5)>
+                5
+            </button>
+            <button class="Nbutton" type="button" onclick=Operand(6)>
+                6
+            </button>
+            <button class="Nbutton" type="button" onclick="Operator('-')">
+                -
+            </button>
+        </div>
+        <div class="row">
+            <button class="Nbutton" type="button" onclick=Operand(7)>
+                7
+            </button>
+            <button class="Nbutton" type="button" onclick=Operand(8)>
+                8
+            </button>
+            <button class="Nbutton" type="button" onclick=Operand(9)>
+                9
+            </button>
+            <button class="Nbutton" type="button" onclick="Operator('*')">
+                *
+            </button>
+        </div>
+        <div class="row">
+            <button class="Nbutton" type="button" onclick=ClearAll()>
+                C
+            </button>
+            <button class="Nbutton" type="button" onclick=Operand(0)>
+                0
+            </button>
+            <button class="Nbutton" type="button" onclick=Calculate()>
+                =
+            </button>
+            <button class="Nbutton" type="button" onclick="Operator('/')">
+                /
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

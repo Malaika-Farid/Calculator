@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 1, 1);
+}
+
+#header {
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vw;
+}
+
+#resultDiv {
+    margin-left: 35vw;
+    height: 7vw;
+    width: 30vw;
+    border: 0.3vw solid red;
+    border-radius: 10px;
+}
+
+#expressionPara {
+    font-size: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0%;
+    text-align: right;
+}
+
+#resultPara {
+    font-size: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0%;
+    text-align: right;
+}
+
+#numberButtons {
+    margin-left: 35.4vw;
+}
+
+.Nbutton {
+    height: 4vw;
+    width: 7vw;
+    background-color: yellow;
+    border: 0.2vw solid rgb(212, 212, 18);
+    border-radius: 1vw;
+    color: black;
+    font-size: 2vw;
+}
+
+.Nbutton:hover{
+    color: yellow;
+    background-color: rgb(109, 98, 228);
+}
+.row {
+    padding-top: 1vw;
+}
